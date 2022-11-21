@@ -11,7 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with: 
-          build: npm i --legacy-peer-deps &&  npm i server
+          build:  npm i server
           start:  serve app -p 8080
         
         
