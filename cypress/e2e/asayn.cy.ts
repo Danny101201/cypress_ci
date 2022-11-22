@@ -11,7 +11,6 @@ describe('spec.cy.js', () => {
     cy.findByPlaceholderText('Email').type('hiunji64@gmail.com')
     cy.wait(1000).then(() => cy.log('132'))
     cy.log('test is finished')
-    cy.get('#password').type('superSecret123', { sensitive: true } as any)
   })
 
   it('shows an active class for the current page', () => {
