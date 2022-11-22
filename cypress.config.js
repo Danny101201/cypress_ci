@@ -7,7 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     // baseUrl: 'https://example.cypress.io',
-    baseUrl: process.env.NODE_ENV === 'production' ?'https://example.cypress.io': 'http://localhost:8080',
+    baseUrl: 'https://example.cypress.io',
     env: {
       logoText: 'cypress.io',
     },
